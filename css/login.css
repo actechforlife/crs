@@ -1,0 +1,55 @@
+body{
+    background-color:#CBCBCF;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div.wrapper{
+    margin:15% auto 0 auto;
+    padding:15px;
+    background-color:#07262C;
+    width:20em;
+    text-align:center;
+    border-radius:.3em;
+}
+.loginOuter #loginHeader h1{
+    font-size:15px;
+    text-transform:uppercase;
+
+}
+.loginOuter #loginInner #loginBody{
+    padding:10px;
+    border-radius:.3em;
+    margin-top:0;
+    background-color:#2FD3F0;
+}
+.loginOuter #loginInner #loginBody .signinField{
+    display:block !important;
+    padding:.9em;
+    border:none;
+    margin:0 auto;
+    background-color:#F5F5F5;
+    width:93%;
+	color: #07262C;
+}
+.loginOuter #loginInner #loginBody .username{
+    border-top-right-radius:.3em;
+    border-top-left-radius:.3em;
+    border-bottom:1px solid #E8EAEA;	
+}
+.loginOuter #loginInner #loginBody .password{
+    border-bottom-left-radius:.3em;
+    border-bottom-right-radius:.3em;
+}
+.loginOuter #loginInner #loginBody .login{
+    display:block;
+    padding:.9em;
+    width:100%;
+    border:none;
+    border-radius:.3em;
+    font-size:15px;
+    font-weight:bold;
+    text-transform:uppercase !important;
+    margin:5px auto 0 auto;
+    color:inherit;
+    background-color:#07262C;
+}
